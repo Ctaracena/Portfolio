@@ -6,6 +6,7 @@ const navMobile = document.querySelector('.nav-mobile')
 const menuList = document.querySelector('.menu-list')
 
 backBtn.addEventListener('click', () => {
+  document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0
 })
 
