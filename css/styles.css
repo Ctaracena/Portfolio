@@ -25,7 +25,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .6);
   animation-name: show;
   animation-duration: 3s;
 }
@@ -71,6 +71,7 @@ header .img-wrapper img {
 }
 .mobile {
   display: none;
+  margin-top: 100px;
 }
 
 
@@ -148,17 +149,17 @@ header .img-wrapper img {
 }
 
 #projects h2 {
-  width: 100%;
+  width: 94%;
   text-align: center;
   font-size: 2em;
 }
 
 #projects .project {
   border-radius: 10px;
-  width: 30%;
-  height: 27em;
+  width: 28%;
+  height: 32em;
   background-color: var(--dark-blue);
-  margin: 0.6em;
+  margin: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,11 +167,9 @@ header .img-wrapper img {
   position: relative;
 }
 
-/* PROJECT */
-
 #projects .project img {
-  width: 90%;
-  height: 25em;
+  width: 94%;
+  height: 30em;
   border-radius: 10px;
   position: relative;
   top: 0;
@@ -198,10 +197,10 @@ header .img-wrapper img {
 }
 
 #projects .project .layout h2 {
-  font-size: 1.6em;
+  font-size: 2em;
 }
 #projects .project .layout p {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 #projects .project .layout:hover {
@@ -247,15 +246,19 @@ header .img-wrapper img {
 }
 
 .card {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, .6);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, .8);
   background-color: white;
 }
 
 .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: 100%;
   margin: 0;
 }
