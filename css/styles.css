@@ -323,3 +323,15 @@ header .img-wrapper img {
   color: var(--dark-blue);
 }
 
+.credits {
+  background-color: var(--dark-blue);
+}
+
+.credits p {
+  margin: 0;
+  color: var(--beige);
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+}
+
