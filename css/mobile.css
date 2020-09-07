@@ -1,0 +1,330 @@
+@media screen and (max-width: 999px) {
+  #hero h1 {
+    font-size: 3.5em;
+  }
+  #hero p {
+    font-size: 1.7em;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 50px 0;
+  }
+  #about .img-wrapper {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #about .details {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+  }
+  #about .details p {
+    padding: 0 20px;
+  }
+
+  
+  #projects h2 {
+    font-size: 1.5em;
+  }
+  
+  #projects .project {
+    width: 40%;
+    height: 25em;
+    background-color: var(--dark-blue);
+    margin: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, .8);
+    position: relative;
+  }
+  
+  /* PROJECT */
+  
+  #projects .project img {
+    width: 90%;
+    height: 23em;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  #projects .project .layout {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    color: var(--beige);
+    padding: 5%;
+    text-align: center;
+    font-family: var(--font-title);
+    line-height: 1.6;
+    opacity: 0;
+  }
+  
+  #projects .project .layout h2 {
+    font-size: 1.6em;
+  }
+  #projects .project .layout p {
+    font-size: 0.8em;
+  }
+  
+
+#certifications .container h2 {
+  font-size: 1.8em;
+}
+
+.card {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+
+/* CONTACT SECTION */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--beige);
+}
+
+.logo {
+  width: 15em;
+}
+
+.contact-me {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-blue);
+}
+
+.contact-me h2 {
+  margin-top: 0;
+  padding-left: 25px;
+}
+
+
+.contact-me div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  width: 230px;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.social img:hover {
+  transform: scale(1.2);
+}
+
+.back {
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+}
+
+.back p {
+  font-size: 12px;
+  color: var(--dark-blue);
+}
+
+
+}
+
+@media screen and (max-width: 650px) {
+  #hero h1 {
+    font-size: 2.8em;
+  }
+  #hero p {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .img-wrapper img {
+    margin-top: -30px;
+    width: 180px;
+  }
+
+  #hero h1 {
+    font-size: 2em;
+  }
+  #hero p {
+    font-size: 1em;
+  }
+
+  
+  #projects h2 {
+    font-size: 1.2em;
+  }
+  
+  #projects .project {
+    width: 80%;
+    height: 30em;
+  }
+  
+  /* PROJECT */
+  
+  #projects .project img {
+    height: 28em;
+  }
+  
+  
+ 
+#certifications .container h2 {
+  font-size: 1.2em;
+}
+
+.card {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.card .details p {
+  font-size: 16px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  header .img-wrapper img {
+    margin-top: -30px;
+    width: 150px;
+  }
+
+  #hero h1 {
+    font-size: 1.8em;
+  }
+  #hero p {
+    font-size: 15px;
+  }
+
+  #about .details h2 {
+    font-size: 1.5em;
+    width: 8em;
+    padding-left: .1em;
+  }
+  #about .details p {
+    line-height: 2;
+    color: var(--beige);
+    font-size: 13px;
+  }
+  
+  #projects h2 {
+    font-size: 1em;
+  }
+  
+  #projects .project {
+    width: 80%;
+    height: 26em;
+  }
+  
+  /* PROJECT */
+  
+  #projects .project img {
+    height: 24em;
+  }
+  
+  
+
+#certifications .container h2 {
+  font-size: 1.2em;
+}
+
+.card {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.card .details p {
+  font-size: 16px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+  header .img-wrapper img {
+    margin-top: 0px;
+    width: 120px;
+  }
+
+  #hero h1 {
+    font-size: 1.5em;
+  }
+  #hero p {
+    font-size: 12px;
+  }
+
+  #about .details h2 {
+    font-size: 1.4em;
+  }
+  #about .details p {
+    line-height: 2;
+    color: var(--beige);
+    font-size: 12px;
+  }
+  
+  #about .img-wrapper img {
+    margin: auto;
+    width: 260px;
+    height: 340px;
+    padding: 10px;
+    border: 5px solid var(--beige);
+  }
+  #projects h2 {
+    font-size: 0.8em;
+  }
+  
+
+  #projects .project .layout h2 {
+    font-size: 1.3em;
+  }
+  #projects .project .layout p {
+    font-size: 0.8em;
+  }
+  
+#certifications .container h2 {
+  font-size: 1.2em;
+}
+
+.card {
+  width: 94%;
+  margin-bottom: 30px;
+}
+
+.card .details p {
+  font-size: 15px;
+}
+
+.mobile .navbar ul {
+  width: 120px;
+}
+
+.mobile .navbar ul li {
+  padding: 6px;
+  height: auto;
+  font-size: 14px;
+}
+}
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --font-title: 'Lato', sans-serif;
+  --font-text: 'Poppins', sans-serif;
+
+  --beige: #e7dfd5;
+  --light-blue: #84a9ac;
+  --blue: #3b6978;
+  --dark-blue: #204051;
+}
+
+@media screen and (max-width: 1300px) {
+  #about .img-wrapper {
+    margin-left: 5%;
+  }
+  #about .details {
+    padding-right: 2em;
+  }
+  #about .details p {
+    font-size: .9em;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar {
+    width: 75%;
+  }
+  #about .img-wrapper {
+    margin-left: 2%;
+  }
+
+  .card .details h3 {
+    font-size: 18px;
+  }
+
+  .card .details p {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 15em;
+    margin: 0 1.5em;
+  }
+
+  .contact-me div span {
+    font-size: 14px;
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  #hero h1 {
+    font-size: 4.5em;
+  }
+  #hero p {
+    font-size: 2em;
+  }
+  #about .img-wrapper {
+    margin-left: 10px;
+  }
+  #about .details {
+    padding-right: 1em;
+  }
+  #about .details h2 {
+    margin: auto;
+  }
+  #projects .project {
+    height: 23em;
+  }
+  #projects .project img {
+    height: 21em;
+  }
+  
+#projects .project .layout {
+  padding: 3%;
+  line-height: 1.5;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    position: absolute;
+    justify-content: space-between;
+  }
+  header .navbar ul {
+    display: none;
+  }
+  
+  .burguer-btn {
+    display: flex;
+    margin-right: 3em;
+    cursor: pointer;
+  }
+  
+  .slide-in-top {
+    -webkit-animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100px);
+    opacity: 1;
+  }
+  }
+  
+    .mobile {
+      position: absolute;
+      display: none;
+      justify-content: center;
+      z-index: 3;
+    }
+    
+    .mobile .navbar ul {
+      background-color: rgba(255, 255, 255, .5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 20px 0;
+      padding: 0 50px;
+      width: 150px;
+    }
+    .mobile .navbar ul li {
+      padding: 8px;
+      height: auto;
+    }
+
+    #about .img-wrapper {
+      width: 40%;
+    }
+    #about .img-wrapper img {
+      width: 350px;
+      height: 450px;
+    }
+    #about .details {
+      width: 60%;
+      padding: 0px 25px;
+    }
+
+}
+
