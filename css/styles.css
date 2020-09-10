@@ -120,6 +120,7 @@ header .img-wrapper img {
   height: 500px;
   padding: 10px;
   border: 5px solid var(--beige);
+  filter: brightness(1.2) grayscale(0.1) contrast(110%);
 }
 #about .details {
   width: 55%;
