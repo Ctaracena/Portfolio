@@ -164,6 +164,9 @@
   #hero p {
     font-size: 1.3em;
   }
+  .mobile .navbar ul li {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {
