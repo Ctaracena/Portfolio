@@ -1,14 +1,8 @@
-const backBtn = document.querySelector('.back')
 const menu = document.querySelector('.burguer-btn')
 const img = document.querySelector('.menu-btn')
 const mobile = document.querySelector('.mobile')
 const navMobile = document.querySelector('.nav-mobile')
 const menuList = document.querySelector('.menu-list')
-
-backBtn.addEventListener('click', () => {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0
-})
 
 let show = false
 
